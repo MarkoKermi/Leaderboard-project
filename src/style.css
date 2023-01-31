@@ -1,3 +1,4 @@
-.hello {
-  color: red;
+.main_part {
+  display: flex;
+  justify-content: space-evenly;
 }
