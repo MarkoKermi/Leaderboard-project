@@ -128,6 +128,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+Run the webpack 'npm start' in the terminal and the project will be active!
+
 <!--
 Example command:
 
