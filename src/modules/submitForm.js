@@ -1,16 +1,16 @@
 const userScore = async () => {
   const response = await fetch(
-    "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/BoVHwANB8Q9NBL0jQxrd/scores/",
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/BoVHwANB8Q9NBL0jQxrd/scores/',
     {
-      method: "POST",
+      method: 'POST',
       body: JSON.stringify({
-        user: document.querySelector("#your_name").value,
-        score: document.querySelector("#your_score").value,
+        user: document.querySelector('#your_name').value,
+        score: document.querySelector('#your_score').value,
       }),
       headers: {
-        "Content-type": "application/json; charset=UTF-8",
+        'Content-type': 'application/json; charset=UTF-8',
       },
-    }
+    },
   );
   const postedScore = await response.json();
   return postedScore;
