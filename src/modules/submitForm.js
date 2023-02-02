@@ -1,7 +1,4 @@
 const userScore = async () => {
-  const nameValue = document.querySelector("#your_name").value;
-  const scoreValue = document.querySelector("#your_score").value;
-
   const response = await fetch(
     "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/BoVHwANB8Q9NBL0jQxrd/scores/",
     {
