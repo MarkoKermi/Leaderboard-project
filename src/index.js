@@ -1,14 +1,28 @@
-import _ from 'lodash';
-import './style.css';
+// import _ from "lodash";
+import "./style.css";
+// import theGame from "./modules/theGame.js";
+import userScore from "./modules/submitForm.js";
+import showScore from "./modules/showScore.js";
+import getScore from "./modules/refresh.js";
 
-function component() {
-  const element = document.createElement('div');
+const nameInputField = document.querySelector("#your_name");
+const scoreInputField = document.querySelector("#your_score");
+const formSubmitBtn = document.querySelector("#addButton");
+const refreshButton = document.getElementById("refresh_btn");
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
+window.addEventListener("load", () => {
+  showScore();
+});
 
-  return element;
-}
+formSubmitBtn.addEventListener("click", (event) => {
+  event.preventDefault();
+  userScore();
+  nameInputField.value = "";
+  scoreInputField.value = "";
+});
 
-document.body.appendChild(component());
+refreshButton.addEventListener("click", (e) => {
+  e.preventDefault();
+  getScore();
+  showScore();
+});
