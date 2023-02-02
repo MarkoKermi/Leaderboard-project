@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Leaderboard_project] <a name="leaderboard-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[Leaderboard_project]** is a simple project (tool) so you can save names and scores from the players and make a list of them.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -97,11 +97,12 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- An HTML File
+- A CSS File
+- A Javascript file
+- An md file
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+> Describe between 1-3 key features of the application.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +112,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link]("It will be prepared as soon as posible")
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,6 +128,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+Run the webpack 'npm start' in the terminal and the project will be active!
+
 <!--
 Example command:
 
@@ -138,6 +141,7 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+https://github.com/MarkoKermi/Leaderboard-project.git
 
 <!--
 Example commands:
@@ -205,11 +209,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Marko Kermichiev**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [MarkoKermi](https://github.com/MarkoKermi)
+- Twitter: [MarkoKerm](https://twitter.com/MarkoKerm)
+- LinkedIn: [MarkoKermichiev](https://www.linkedin.com/in/marko-kermichiev-78b1bb110/)
 
 👤 **Author2**
 
@@ -225,9 +229,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Better_css_style]**
+- [ ] **[nav_bar]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
