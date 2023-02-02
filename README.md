@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -96,6 +96,11 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+
+- An HTML File
+- A CSS File
+- A Javascript file
+- An md file
 
 > Describe between 1-3 key features of the application.
 
