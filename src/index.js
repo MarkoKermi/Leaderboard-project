@@ -1,6 +1,4 @@
-// import _ from "lodash";
 import './style.css';
-// import theGame from "./modules/theGame.js";
 import userScore from './modules/submitForm.js';
 import showScore from './modules/showScore.js';
 import getScore from './modules/refresh.js';

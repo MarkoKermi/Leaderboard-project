@@ -1,6 +1,10 @@
+:root {
+  --border: #ddd;
+  --button_background: #fffeff;
+}
+
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -11,24 +15,31 @@ h1 {
 h2 {
   font-size: 2rem;
 }
-.score_tittle {
-  margin-right: 3rem;
-}
 
 td,
 th {
-  border: 1px solid rgb(221, 221, 221);
+  border: 1px solid var(--border);
   padding: 0.2rem;
-}
-
-tr:nth-child(even) {
-  background-color: rgb(221, 221, 221);
 }
 
 table {
   margin-top: 1rem;
   border-collapse: collapse;
   width: 100%;
+}
+
+button {
+  background-color: var(--button_background);
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 0.4rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.3rem;
+  margin-top: 1.5rem;
 }
 
 .main_part {
@@ -44,4 +55,8 @@ table {
 
 .score {
   flex-direction: row;
+}
+
+.score_tittle {
+  margin-right: 3rem;
 }
