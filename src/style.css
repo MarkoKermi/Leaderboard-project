@@ -1,4 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 5%;
+}
+
+h2 {
+  font-size: 2rem;
+}
+.score_tittle {
+  margin-right: 3rem;
+}
+
+td,
+th {
+  border: 1px solid rgb(221, 221, 221);
+  padding: 0.2rem;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(221, 221, 221);
+}
+
+table {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
 .main_part {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.recent_score {
+  display: flex;
+}
+
+.score {
+  flex-direction: row;
 }

@@ -4,28 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leaderboard Exercise</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
   </head>
   <body>
     <h1>Leaderboard</h1>
     <main class="main_part">
       <div class="score">
-        <h3 class="score_tittle">Recent scores</h3>
-        <ul class="recent_score"></ul>
-        <span
-          ><button type="button" id="refresh_btn" class="btn">
-            Refresh
-          </button></span
-        >
+        <div class="recent_score">
+          <h2 class="score_tittle">Recent scores</h2>
+          <span
+            ><button type="button" id="refresh_btn" class="btn">
+              Refresh
+            </button></span
+          >
+        </div>
+
+        <table class="score_container">
+          <tr>
+            <th>names</th>
+            <th>scores</th>
+          </tr>
+        </table>
       </div>
-      <table class="score_container">
-        <tr>
-          <th>names</th>
-          <th>scores</th>
-        </tr>
-      </table>
       <section class="add_score">
-        <h3 class="tittle_add-score">Add your score</h3>
+        <h2 class="tittle_add-score">Add your score</h2>
         <form action="" method="GET" id="form">
           <input
             type="text"
