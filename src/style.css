@@ -1,4 +1,62 @@
+:root {
+  --border: #ddd;
+  --button_background: #fffeff;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 5%;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+td,
+th {
+  border: 1px solid var(--border);
+  padding: 0.2rem;
+}
+
+table {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+button {
+  background-color: var(--button_background);
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 0.4rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.3rem;
+  margin-top: 1.5rem;
+}
+
 .main_part {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.recent_score {
+  display: flex;
+}
+
+.score {
+  flex-direction: row;
+}
+
+.score_tittle {
+  margin-right: 3rem;
 }

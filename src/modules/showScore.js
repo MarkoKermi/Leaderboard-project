@@ -7,10 +7,10 @@ const showScore = async () => {
   container.innerHTML = '';
   data.forEach((item) => {
     const renderData = `
-    <tr>
-    <td>${item.user}</td>
-    <td>${item.score}</td>
-    </tr>`;
+    <div>
+      <td>${item.user}</td>
+      <td>${item.score}</td>
+    </div>`;
     container.insertAdjacentHTML('beforeend', renderData);
   });
 };
